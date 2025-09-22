@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif; /* tem que deixar todas as fontes iGUAIS*/
+
+}
+.box1{
+    background-color: rgb(226, 202, 248);
+    color: rgb(8, 8, 8);
+    width: 300px;
+    height: 260px;
+    margin-left: 400px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-family: "Bitcount Grid Double Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
+.box2{
+    background-color: rgb(223, 146, 53);
+    color: rgb(10, 10, 10);
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-left: 400px;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.box3{
+    background-color: rgb(40, 221, 16);
+    color: rgb(7, 7, 7);
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-left:400px ;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+h1,h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* lista de seletores*/
+}
+#tefe{
+margin-left: 500px;
+}
+/*medidas de fontes
+(PX,CM,MM,EM,VW,VH,%)
+os mais utilizados é o px e o em
+*/
+
+.gato{
+    font-size:16px ;/* usamos a para mudar o tamanho da fonte*/
+    font-style: italic;
+    text-decoration: overline;
+    text-align: justify;
+    text-indent: 30px;
+}
+.gato1{
+    font-size: 3em;
+}
